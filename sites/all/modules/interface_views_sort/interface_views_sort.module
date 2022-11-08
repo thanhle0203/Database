@@ -1,0 +1,15 @@
+<?php
+/**
+ * Implements hook_views_data_alter().
+ */
+function interface_views_sort_views_data_alter(array &$data) {
+  $data['node_field_data']['language_switcher_sort'] = [
+    'title' => t('Interface Language sorting content'),
+    'group' => t('Content'),
+    'help' => t('Sorts the content based on interface language.'),
+    'sort' => [
+      'field' => 'node_field_data',
+      'id' => 'language_switcher_sort',
+    ],
+  ];
+}

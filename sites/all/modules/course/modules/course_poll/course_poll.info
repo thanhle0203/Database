@@ -1,0 +1,16 @@
+name = Course poll
+description = Exposes Poll as a course object.
+package = Course objects
+core = 7.x
+dependencies[] = poll
+dependencies[] = course
+
+
+files[] = course_poll.classes.inc
+files[] = CourseObjectPollFulfillment.php
+
+; Information added by Drupal.org packaging script on 2019-09-20
+version = "7.x-2.0"
+core = "7.x"
+project = "course"
+datestamp = "1569004096"

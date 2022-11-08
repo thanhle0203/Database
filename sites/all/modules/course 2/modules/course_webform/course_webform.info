@@ -1,0 +1,17 @@
+name = Course webform
+description = Expose Webform as a course object.
+package = Course objects
+core = 7.x
+dependencies[] = course
+dependencies[] = webform
+
+
+files[] = CourseObjectWebformFulfillment.php
+files[] = course_webform.classes.inc
+files[] = course_webform.test
+
+; Information added by Drupal.org packaging script on 2019-09-20
+version = "7.x-2.0"
+core = "7.x"
+project = "course"
+datestamp = "1569004096"
